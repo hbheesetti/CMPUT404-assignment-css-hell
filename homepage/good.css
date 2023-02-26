@@ -1,0 +1,89 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding-bottom: 5%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30%;
+	background-color: #11999e;
+	text-align: center;
+}
+
+.Header-header {
+	color: whitesmoke;
+	font-size: 4em;
+	font-family: Cambria, "Times New Roman", serif;
+	margin-bottom: 12pt;
+}
+
+.Header-subheader {
+	color: whitesmoke;
+	font-size: 1.5em;
+	font-style: italic;
+	margin-top: 0;
+	font-family: Cambria, "Times New Roman", serif;
+}
+
+main {
+	height: 70%;
+	padding-bottom: 50pt;
+}
+
+.sidebar {
+	height: 700px;
+	padding: 0 1em;
+	width: 14em;
+	margin-right: 20%;
+	float: right;
+	background-color: #cdcdcd;
+	text-align: center;
+}
+
+.list {
+	padding: 0;
+}
+
+.item {
+	list-style-type: none;
+	margin-bottom: 1em;
+	margin-bottom: 1em;
+}
+
+.aboutMe {
+	margin-bottom: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.experience {
+	margin-bottom: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.Projects {
+	margin-bottom: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.opportunity {
+	margin-bottom: 2%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.img {
+	float: left;
+	width: 90pt;
+	margin: 10pt;
+}

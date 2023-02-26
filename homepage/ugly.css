@@ -1,0 +1,94 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding-bottom: 5%;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-image: url(bg.jpg);
+}
+
+.Header {
+	display: flex;
+	height: 30%;
+	background-color: #11999e;
+}
+
+.Header-header {
+	color: whitesmoke;
+	font-size: 4em;
+	font-family: Cambria, "Times New Roman", serif;
+	margin-bottom: 12pt;
+}
+
+.Header-subheader {
+	color: whitesmoke;
+	font-size: 1.5em;
+	font-style: italic;
+	margin-top: 0;
+	font-family: Cambria, "Times New Roman", serif;
+}
+
+main {
+	height: 70%;
+	padding-bottom: 50pt;
+}
+
+.sidebar {
+	height: 600px;
+	padding: 0 1em;
+	width: 14em;
+	float: right;
+	background-color: #cdcdcd;
+	text-align: center;
+}
+
+.list {
+	padding: 0;
+}
+
+.item {
+	list-style-type: none;
+	margin-bottom: 1em;
+	margin-bottom: 1em;
+}
+
+.aboutMe {
+	margin-bottom: 2%;
+	background-color: lightblue;
+	border-radius: 10px;
+	border: 2px solid black;
+	padding: 5px;
+}
+
+.experience {
+	margin-bottom: 2%;
+	background-color: lightyellow;
+	border-radius: 10px;
+	border: 2px solid black;
+	padding: 5px;
+}
+
+.Projects {
+	margin-bottom: 2%;
+	background-color: lightblue;
+	border-radius: 10px;
+	border: 2px solid black;
+	padding: 5px;
+}
+
+.opportunity {
+	margin-bottom: 2%;
+	background-color: lightyellow;
+	border-radius: 10px;
+	border: 2px solid black;
+	padding: 5px;
+}
+
+.img {
+	float: left;
+	width: 90pt;
+	margin: 10pt;
+}
